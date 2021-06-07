@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Party Loyalty</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body id="house">
+    <div id="wrapper">
+        <header>
+          <div class="d-flex flex-row justify-content-between">
+            <div class="d-flex flex-row">
+              <img src="img/lupa.png" alt="" class="logo">
+                <div><h1>TGIF</h1></div>
+                <div>
+                  <img id="sobredecarta" src="img/sobredecarta.png" alt="" class="sobreCarta">
+                  <a href="mailto:info@tgif.net">info@tgif.net</a>
+                </div>
+            </div>
+          </div>
+            <div>
+              <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Congress 113
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="house.html">House</a></li>
+                          <li><a class="dropdown-item" href="senate.html">Senate</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Attendance
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="houseattendance.html">House</a></li>
+                          <li><a class="dropdown-item" href="senateattendance.html">Senate</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Party Loyalty
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="houseloyalty.html">House</a></li>
+                          <li><a class="dropdown-item" href="senateloyalty.html">Senate</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+        </header>
+        <main class="d-flex flex-column">
+          <section class="d-flex">
+            <div>
+              <h2>Party Loyalty</h2>
+              <p>Those who consider themselves to be strong partisans, strong Democrats and strong Republicans respectively, tend to be the most faithful in voting for their party's nominee for office and legislation that backs their party's agenda.</p>
+            </div>
+            <div>
+              <h2>House at a glance</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <td>Party</td>
+                    <td>Number of Representatives</td>
+                    <td>% Voted with Party</td>
+                  </tr>
+                </thead>
+                <tbody id="tableBody">
+                </tbody>
+              </table>
+            </div>
+          </section>
+          <section class="d-flex">
+            <div>
+              <h2>Least Loyal (Bottom 10% of Party)</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Number Party Votes</th>
+                    <th>% Party Votes</th>
+                  </tr>
+                </thead>
+                <tbody id="least-loyal">
+                </tbody>
+              </table>
+            </div>
+            <div>
+              <h2>Most Loyal (Top 10% of Party)</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Number Party Votes</th>
+                    <th>% Party Votes</th>
+                  </tr>
+                </thead>
+                <tbody id="most-loyal">
+                </tbody>
+              </table>
+            </div>
+          </section>
+        </main>
+        <footer class="d-flex">
+            <h3>@2016TGIF | All Rights Reserved</h3>
+        </footer>
+    </div>
+    <script src="js/house.js"></script>
+    <script src="js/statistics.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>

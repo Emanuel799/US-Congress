@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 5px;
+}
+
+/*---HEADER---*/
+/* header {
+    height: 25vh;
+}
+
+/*---BODY---*/
+/* main {
+    background-color: aqua;
+    height: 75vh;
+    overflow: auto;
+}*/
+
+ .logo {
+    max-height: 6vh;
+} 
+
+.sobreCarta {
+    max-height: 6vh;
+}
+
+.imagen {
+    max-height: 50vh;
+} 
+.one{
+    width:50vw;
+}
+/*---FOOTER---*/
+
+
+/* header {
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+}
+
+.first {
+    display: flex;
+}
+
+#lupa {
+    width: 10px;
+    height: 10px;
+}
+
+#sobredecarta {
+    width: 20px;
+    height: 20px;
+}
+
+main {
+    height: 65vh;
+}
+
+article {
+    display: flex;
+}
+
+.one {
+    width: 80vw;
+}
+
+.two {
+    width:20vw;
+}
+
+ .tableCongress {
+    display: flex;
+    flex-direction: column;
+} 
+
+.fifth {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    height: 15vh;
+} */
